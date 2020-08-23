@@ -1,5 +1,6 @@
 import React from 'react'
 import { ListOfCategories } from './components/listOfCategories'
+import { ListOfPhotoCard } from './components/listOfPhotoCard'
 import { GlobalStyle } from './GlobalStyles'
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <ListOfCategories />
+      <ListOfPhotoCard />
     </>
   )
 }
